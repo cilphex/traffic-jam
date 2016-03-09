@@ -1,0 +1,19 @@
+{
+  "name": "traffic-jam",
+  "version": "0.0.1",
+  "description": "A Node library for time-based rate limiting",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --bail --ui qunit --reporter spec --check-leaks tests/index.js"
+  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "async": "0.9.0",
+    "mocha": "2.2.5",
+    "moment": "2.12.0",
+    "timekeeper": "0.0.5",
+    "redis": "2.5.0-1",
+    "require-all": "1.1.0",
+    "sinon": "1.17.2"
+  }
+}
